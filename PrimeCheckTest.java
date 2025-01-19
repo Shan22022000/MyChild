@@ -23,7 +23,7 @@ public class PrimeCheckTest {
   @Test
   public void testPrimes() {
     /* ToDo: insert a test here */
-    assertEquals("11 is a prime number", true, isPrime(11));
+    assertEquals("11 is a prime number", true, PrimeCheck.isPrime(11));
 
   }
 
@@ -31,6 +31,6 @@ public class PrimeCheckTest {
   @Test
   public void testNonPrimes() {
     /* ToDo: insert a test here */
-    assertEquals("18 is not a prime number", false, isPrime(18));
+    assertEquals("18 is not a prime number", false, PrimeCheck.isPrime(18));
   }
 }
